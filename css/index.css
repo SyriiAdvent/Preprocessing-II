@@ -14,6 +14,8 @@ h3,
 h4,
 h5 {
   font-family: "Indie Flower", cursive;
+  margin: 4% 0;
+  padding: 0;
 }
 h1 {
   font-size: 4rem;
@@ -221,6 +223,9 @@ header {
     margin: 3% 0;
   }
 }
+.home .content-pick .destination a {
+  text-decoration: none;
+}
 .home .content-pick .destination .btn {
   display: flex;
   justify-content: center;
@@ -233,6 +238,7 @@ header {
   border-radius: 14px;
   font-size: 1.8rem;
   box-shadow: 1px 1px 2px 1px #a5a5a5;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
@@ -241,11 +247,5 @@ header {
     font-size: 1.6rem;
     background-color: #17A2B8;
     border: 1px solid #17A2B8;
-  }
-}
-@media (max-width: 500px) {
-  .home .content-pick .destination .btn {
-    width: 100%;
-    font-size: 2rem;
   }
 }
