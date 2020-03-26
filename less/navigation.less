@@ -1,1 +1,37 @@
 // Navigation Styles here
+nav {
+  width: 80%;
+  .flex(center, center);
+
+  @media @mobile {
+    flex-direction: column;
+  }
+
+  #title {
+    width: 55vh;
+
+    @media @mobile {
+      width: 100%;
+      .flex(center, center);
+    }
+  }
+
+  .links {
+    width: 45%;
+    height: 100%;
+    .flex(center, center);
+
+    @media @mobile {
+      width: 100%;
+      margin-bottom: 2%;
+    }
+
+    a {
+      width: 100%;
+      .flex(center, center);
+      text-decoration: none;
+      color: black;
+      font-size: 1.6rem;
+    }
+  }
+}
